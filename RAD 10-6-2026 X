@@ -1,0 +1,59 @@
+import java.util.*;
+
+public class Main {
+   public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+       String name;
+       int age;
+       String address;
+       double weight;
+       double height;
+      
+       System.out.print("What is your name: ");
+       name = input.nextLine();
+
+       System.out.print("How old are you: ");
+       age = input.nextInt();
+       input.nextLine();
+
+       System.out.print("Where is your address: ");
+       address = input.nextLine();
+
+       System.out.print("Enter your weight (kg): ");
+       weight = input.nextDouble();
+
+       System.out.print("Enter your height (cm): ");
+       height = input.nextDouble();
+
+       System.out.println("\nYou are " + name + ", " + age+
+               " years old, living at " + address +
+               ". Your weight is " + weight + "kg your height is " +
+               height + " cm " );
+   }
+
+
+
+
+
+
+
+
+
+
+
+public class Countdown {
+    public static void main(String[] args) {
+       
+        int count = 50;
+
+        while (count >= 1) {
+            System.out.println(count);
+            
+            count--;
+            
+        }
+        
+    }
+}
+
+}
